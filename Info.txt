@@ -1,0 +1,28 @@
+--- SECCIÓN: INSTITUCIONAL ---
+index.html              SI
+historia.html           SI
+identidad.html          SI
+organigrama.html        SI
+OFERTA_ACADÉMICA.html   
+
+--- SECCIÓN: OFERTA ACADÉMICA ---
+general.html            SI
+software.html           SI
+contabilidad.html       SI
+electronica.html        SI     
+salud.html              SI 
+
+--- SECCIÓN: ADMISIONES ---
+requisitos.html
+matricula.html
+admision.html
+reglamento.html
+
+--- SECCIÓN: VIDA ESTUDIANTIL ---
+banda.html
+deportes.html
+servicio-social.html
+
+--- SECCIÓN: CONTACTO Y RECURSOS ---
+contacto.html
+descargas.html
