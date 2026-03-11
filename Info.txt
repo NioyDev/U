@@ -13,15 +13,15 @@ electronica.html        SI
 salud.html              SI 
 
 --- SECCIÓN: ADMISIONES ---
-requisitos.html
-matricula.html
+requisitos.html         SI
+matricula.html          
 admision.html
-reglamento.html
+reglamento.html         
 
 --- SECCIÓN: VIDA ESTUDIANTIL ---
-banda.html
-deportes.html
-servicio-social.html
+banda.html              SI
+deportes.html           SI
+servicio-social.html    SI
 
 --- SECCIÓN: CONTACTO Y RECURSOS ---
 contacto.html
