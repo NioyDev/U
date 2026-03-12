@@ -1,0 +1,101 @@
+.Banner{
+    margin: 10px auto;
+
+    width: 90%;
+    height: 500px;
+    display: flex;
+
+}
+
+.Infomacion{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo{
+    width: 90%;
+    height: 90%;
+
+}
+
+.Titulo h1{
+    font-size: 80px;
+    color: var(--Texto-principal);
+    font-family: inter;
+    font-weight: 900;
+}
+
+.subtitulo{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: inter;
+    font-weight: 600;
+    color: gray;
+}
+
+.Botones{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.Botones .btn{
+    padding: 10px 20px;
+    font-family: inter;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px;
+    width: 200px;
+    height: 50px;
+}
+
+.Botones .btn:nth-child(1){
+    background-color: var(--Componente-principal);
+    color: white;
+    border: 1px solid var(--Componente-principal);
+    transition: all 0.5s;
+}
+
+.Botones .btn:nth-child(2){
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--Componente-principal);
+    transition: all 0.5s;
+}
+
+.Botones .btn:hover{
+    scale: 1.05;
+    transition: all 0.5s;
+}
+
+.Imagen{
+    width: 50%;
+    height: 100%;
+}
+
+.Imagen picture{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Imagen picture img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+

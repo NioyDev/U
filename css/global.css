@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*
+        Colores de Texto
+    */
+    --Texto-principal: #000000;
+
+
+    /*
+        Colores de componentes
+    */
+    --Componente-principal: #000000;
+}
+
+.hr{
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: var(--Componente-principal);
+}
