@@ -1,10 +1,8 @@
 .Banner{
     margin: 10px auto;
-
     width: 90%;
     height: 500px;
     display: flex;
-
 }
 
 .Infomacion{
@@ -99,3 +97,146 @@
     object-fit: cover;
 }
 
+
+/*Infomacion-link*/
+
+.Infomacion-link{
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Infomacion-link .Links {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+
+    .icono img {
+        transition: transform 0.5s ease, filter 0.5s ease;
+        filter: grayscale(100%) invert(100%);
+    }
+
+    .nombre span {
+        display: inline-block;
+        transition: transform 0.5s ease;
+    }
+
+    .Fondo {
+        transition: transform 0.5s ease;
+        transform-origin: center;
+    }
+
+    &:hover {
+        .icono img {
+            transform: translateY(-5px) translateX(5px);
+        }
+
+        .nombre span {
+            transform: translateY(-5px);
+        }
+
+        .Fondo {
+            transform: scale(1.02);
+        }
+    }
+}
+
+.icono{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.icono img{
+    padding: 15px;
+    scale: 1.5;
+    transition: all 0.5s;
+    filter: invert();
+}
+
+.icono img:hover{
+    transform: translateY(-3px) translateX(3px);
+    transition: all 0.5s;
+}
+
+.nombre{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.nombre span{
+    font-family: inter;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.Infomacion-link .Links a{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.Infomacion-link .Links .Fondo{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: -10;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 950px) {
+    .Imagen {
+        display: none;
+        width: 0%;
+    }
+
+    .Infomacion{
+        width: 90%;
+    }
+
+    .Infomacion .Titulo h1{
+        font-size: 70px;
+    }
+
+    .Banner .btn{
+        min-width: 50%;
+    }
+
+    .subtitulo{
+        min-width: 100%;
+    }
+
+
+    .Infomacion-link{
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+    .Infomacion-link{
+        height: auto;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -35,6 +35,13 @@
     width: 50px;
     height: 50px;
     overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#menu picture:hover{
+    border-radius: 0px;
+    transition: all 0.5s;
 }
 
 #menu picture img{
