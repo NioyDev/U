@@ -5,14 +5,25 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color:#fcfd00;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 :root{
     /*
         Colores de Texto
     */
     --Texto-principal: #000000;
+
+    /*
+        Fuentes de letra
+    */
+
+    --Texto-principal: inter;
 
 
     /*

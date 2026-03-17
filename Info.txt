@@ -1,7 +1,7 @@
 --- SECCIÓN: INSTITUCIONAL ---
-index.html              SI
-historia.html           SI
-identidad.html          SI
+index.html              SI SI
+historia.html           SI SI
+identidad.html          SI SI
 organigrama.html        SI
 OFERTA_ACADÉMICA.html   
 
