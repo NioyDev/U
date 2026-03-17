@@ -201,7 +201,7 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 720px) {
     .Imagen {
         display: none;
         width: 0%;

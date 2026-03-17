@@ -38,3 +38,9 @@ html {
     margin: 0 auto;
     background-color: var(--Componente-principal);
 }
+
+@media screen and (max-width: 720px){
+    body{
+        width: 100%;
+    }
+}
