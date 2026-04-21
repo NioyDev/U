@@ -10,6 +10,17 @@
 </head>
 <body>
 
+    <nav class="MenuDesplegable"  role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" id="menuCheckbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="MenuDesplegable">
+    </ul>
+  </div>
+</nav>
+
     <nav id="menu"></nav> <!-- Aquí se cargará el menú dinámicamente -->
     <div class="hr"></div> <!-- Línea horizontal para separar el menú del contenido -->
 
@@ -23,8 +34,8 @@
                 </p>
             </div>
             <div class="Botones">
-                <button class="btn">Nuevo Ingreso</button>
-                <button class="btn">Antiguo Ingreso</button>
+                <button class="btn" onclick="window.location.href = 'https://www.google.com'">Nuevo Ingreso</button>
+                <button class="btn" onclick="window.location.href = 'https://www.google.com'">Antiguo Ingreso</button>
             </div>
         </div>
         <div class="Imagen">
@@ -85,6 +96,6 @@
 
 
     <script src="js/menu.js"></script>
-    <script src="js/menu.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 </body>
 </html>
