@@ -1,0 +1,92 @@
+/* SECCIÓN INFO */
+.Info-Contenedor{
+    margin: 40px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 40px 0;
+}
+
+.Info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titulo-Banner{
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Titulo-Banner h2{
+    font-family: var(--Texto-principal);
+    font-size: 50px;
+    width: 30%;
+}
+
+.Titulo-Banner .hr{
+    width: 70%;
+}
+
+.Info-contenido{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    max-width: 1200px;
+}
+
+.Info-card{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Info-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Info-card h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: var(--Color-secundario, #333);
+    font-family: var(--Texto-principal);
+}
+
+.Info-card p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    text-wrap: balance;
+}
+
+@media screen and (max-width: 950px) {
+    .Titulo-Banner h2{
+        font-size: 35px;
+    }
+
+    .Info-contenido{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .Info-card h3{
+        font-size: 18px;
+    }
+
+    .Info-card p{
+        font-size: 14px;
+    }
+}

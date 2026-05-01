@@ -14,9 +14,10 @@ salud.html              SI
 
 --- SECCIÓN: ADMISIONES ---
 requisitos.html         SI
-matricula.html          
-admision.html
-reglamento.html         
+matricula.html          SI
+admision.html           SI
+reglamento.html         SI
+convenios.html          SI
 
 --- SECCIÓN: VIDA ESTUDIANTIL ---
 banda.html              SI
@@ -24,5 +25,5 @@ deportes.html           SI
 servicio-social.html    SI
 
 --- SECCIÓN: CONTACTO Y RECURSOS ---
-contacto.html
-descargas.html
+contacto.html           SI
+descargas.html          SI

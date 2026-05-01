@@ -2,9 +2,13 @@ let Opciones = {
     "Inicio": "../index.html",
     "Historia": "../html/historia.html",
     "Requisitos": "../html/requesitos.html",
+    "Matrícula": "../html/matricula.html",
+    "Admisión": "../html/admision.html",
+    "Reglamento": "../html/reglamento.html",
+    "Convenios": "../html/convenios.html",
     "Banda": "../html/banda.html",
-    "Descargas": "#",
-    "Contacto": "#"
+    "Descargas": "../html/descargas.html",
+    "Contacto": "../html/contacto.html"
 };
 
 let menu = document.getElementById("menu");

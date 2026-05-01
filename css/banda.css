@@ -1,5 +1,154 @@
-.Banner{
+/* SECCIÓN VIDA ESTUDIANTIL - BANDA */
+.Vida-Estudiantil-Contenedor{
+    margin: 40px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.Vida-Estudiantil{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titulo-Banner{
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Titulo-Banner h2{
+    font-family: var(--Texto-principal);
+    font-size: 50px;
+    width: 30%;
+}
+
+.Titulo-Banner .hr{
+    width: 70%;
+}
+
+.Contenido-vida{
     width: 90%;
-    height: 90vh;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Texto-seccion{
+    width: 100%;
+}
+
+.Texto-seccion h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: var(--Texto-principal);
+    font-family: var(--Texto-principal);
+}
+
+.Texto-seccion p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    text-wrap: balance;
+}
+
+/* INFORMACIÓN BANDA */
+.Informacion-banda{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.info-item{
+    padding: 0;
+    border-left: 2px solid var(--Componente-principal);
+    padding-left: 25px;
+}
+
+.info-item h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--Texto-principal);
+    font-family: var(--Texto-principal);
+}
+
+.info-item p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    text-wrap: balance;
+}
+
+.lista-info{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-info li{
+    padding: 8px 0;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #555;
+    position: relative;
+    line-height: 1.6;
+}
+
+.lista-info li:before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--Componente-principal);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 950px) {
+    .Titulo-Banner h2{
+        font-size: 35px;
+    }
+
+    .Titulo-Banner{
+        width: 95%;
+    }
+
+    .Contenido-vida{
+        width: 95%;
+        gap: 20px;
+    }
+
+    .Texto-seccion h3{
+        font-size: 24px;
+    }
+
+    .Texto-seccion p{
+        font-size: 14px;
+    }
+
+    .Informacion-banda{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .info-item h4{
+        font-size: 18px;
+    }
+
+    .info-item p{
+        font-size: 13px;
+    }
+
+    .lista-info li{
+        font-size: 13px;
+    }
 }
