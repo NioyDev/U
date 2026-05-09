@@ -1,8 +1,13 @@
 .Banner{
-    margin: 10px auto;
+    margin: 30px auto;
     width: 90%;
     height: 500px;
     display: flex;
+    background: linear-gradient(135deg, #FFFFFF 0%, #F8F8F8 100%);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border: 1px solid #E8E8E8;
 }
 
 .Infomacion{
@@ -22,9 +27,11 @@
 
 .Titulo h1{
     font-size: 80px;
-    color: var(--Texto-principal);
+    color: #1a1a1a;
     font-family: inter;
     font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1.1;
 }
 
 .subtitulo{
@@ -34,8 +41,9 @@
     justify-content: flex-start;
     align-items: center;
     font-family: inter;
-    font-weight: 600;
-    color: rgb(49, 49, 49);
+    font-weight: 500;
+    color: #666;
+    font-size: 16px;
 }
 
 .Botones{
@@ -59,22 +67,24 @@
 }
 
 .Botones .btn:nth-child(1){
-    background-color: var(--Componente-principal);
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
     color: white;
-    border: 1px solid var(--Componente-principal);
-    transition: all 0.5s;
+    border: none;
+    transition: all 0.4s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .Botones .btn:nth-child(2){
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(0, 0, 0);
-    border: 1px solid var(--Componente-principal);
-    transition: all 0.5s;
+    background-color: white;
+    color: #2a2a2a;
+    border: 2px solid #2a2a2a;
+    transition: all 0.4s;
 }
 
 .Botones .btn:hover{
     scale: 1.05;
-    transition: all 0.5s;
+    transition: all 0.4s;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .Imagen{
@@ -89,6 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .Imagen picture img{

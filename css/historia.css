@@ -52,13 +52,15 @@
 .Historia-texto p{
     text-wrap: balance;
     font-size: 20px;
-
+    color: #333;
+    line-height: 1.8;
 }
 
 .Historia-texto h3{
     font-size: 30px;
     margin: 10px;
-    
+    color: #1a1a1a;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 950px) {

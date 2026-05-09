@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color:#ffffff;
+    background: linear-gradient(135deg, #FAFAFA 0%, #F0F0F0 100%);
+    color: #333;
 }
 
 html {
@@ -30,13 +31,27 @@ html {
         Colores de componentes
     */
     --Componente-principal: #000000;
+    
+    /*
+        Paleta de colores sutiles - Grises
+    */
+    --Color-azul-suave: #F5F5F5;
+    --Color-verde-suave: #F0F0F0;
+    --Color-naranja-suave: #EFEFEF;
+    --Color-morado-suave: #ECECEC;
+    --Color-rosa-suave: #FAFAFA;
+    --Color-amarillo-suave: #F8F8F8;
+    --Color-acento-azul: #A0A0A0;
+    --Color-acento-verde: #909090;
+    --Color-acento-naranja: #B0B0B0;
 }
 
 .hr{
     width: 90%;
-    height: 1px;
+    height: 2px;
     margin: 0 auto;
-    background-color: var(--Componente-principal);
+    background: linear-gradient(90deg, #000000 0%, #666666 50%, #000000 100%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 @media screen and (max-width: 720px){
