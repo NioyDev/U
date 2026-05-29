@@ -30,7 +30,7 @@
     font-family: var(--Texto-principal);
     font-size: 50px;
     width: 30%;
-    color: #1a1a1a;
+    color: var(--Color-oscuro);
     font-weight: 900;
 }
 
@@ -53,8 +53,8 @@
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
-    border: 1px solid #E8E8E8;
-    border-left: 4px solid #333;
+    border: 1px solid var(--Color-gris-claro);
+    border-left: 4px solid var(--Color-gris-oscuro);
 }
 
 .Info-card:hover{
@@ -65,7 +65,7 @@
 .Info-card h3{
     font-size: 22px;
     margin-bottom: 15px;
-    color: #1a1a1a;
+    color: var(--Color-oscuro);
     font-family: var(--Texto-principal);
     font-weight: 700;
 }
@@ -73,7 +73,7 @@
 .Info-card p{
     font-size: 16px;
     line-height: 1.6;
-    color: #666;
+    color: var(--Color-gris-medio-claro);
     text-wrap: balance;
 }
 

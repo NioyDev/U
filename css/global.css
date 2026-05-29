@@ -26,9 +26,22 @@ html {
 
     --Texto-principal: inter;
 
-
     /*
-        Colores de componentes
+        Paleta de colores principales
+    */
+    --Color-oscuro: #1a1a1a;
+    --Color-gris-oscuro: #333;
+    --Color-gris-medio: #555;
+    --Color-gris-medio-claro: #666;
+    --Color-texto-secundario: #333;
+    --Color-blanco-puro: #FFFFFF;
+    --Color-blanco-suave: #F9F9F9;
+    --Color-blanco-muy-suave: #F8F8F8;
+    --Color-gris-claro: #E8E8E8;
+    --Color-negro: #000000;
+    
+    /*
+        Componentes
     */
     --Componente-principal: #000000;
     

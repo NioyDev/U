@@ -52,14 +52,14 @@
 .Historia-texto p{
     text-wrap: balance;
     font-size: 20px;
-    color: #333;
+    color: var(--Color-texto-secundario);
     line-height: 1.8;
 }
 
 .Historia-texto h3{
     font-size: 30px;
     margin: 10px;
-    color: #1a1a1a;
+    color: var(--Color-oscuro);
     font-weight: 900;
 }
 

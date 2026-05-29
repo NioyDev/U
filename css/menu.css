@@ -30,8 +30,8 @@
 
 #menu ul li:hover {
     cursor: pointer;
-    border-bottom: 2px solid #333;
-    color: #333;
+    border-bottom: 2px solid var(--Color-gris-oscuro);
+    color: var(--Color-gris-oscuro);
     transition: all 0.3s ease-in;
 }
 
@@ -92,7 +92,7 @@
 }
 
 #menuToggle li:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--Color-negro);
     transition: all 0.5s ease-in;
 }
 

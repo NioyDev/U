@@ -52,7 +52,7 @@
 
 .Info-card{
     padding: 25px;
-    border-left: 4px solid #333;
+    border-left: 4px solid var(--Color-gris-oscuro);
     border-radius: 8px;
     background: rgba(245, 245, 245, 0.6);
     transition: all 0.3s ease;
@@ -67,7 +67,7 @@
 .Info-card h3{
     font-size: 18px;
     margin-bottom: 12px;
-    color: #1a1a1a;
+    color: var(--Color-oscuro);
     font-family: var(--Texto-principal);
     font-weight: 700;
 }
@@ -75,7 +75,7 @@
 .Info-card p{
     font-size: 15px;
     line-height: 1.6;
-    color: #555;
+    color: var(--Color-gris-medio);
 }
 
 .redes-sociales{
@@ -137,7 +137,7 @@
 .form-grupo input:focus,
 .form-grupo textarea:focus{
     outline: none;
-    border-color: #333;
+    border-color: var(--Color-gris-oscuro);
     box-shadow: 0 0 0 3px rgba(51, 51, 51, 0.1);
 }
 
@@ -145,7 +145,7 @@
     padding: 12px 30px;
     font-size: 14px;
     font-weight: 600;
-    background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, var(--Color-gris-oscuro) 0%, var(--Color-oscuro) 100%);
     color: white;
     border: none;
     border-radius: 8px;

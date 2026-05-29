@@ -27,7 +27,7 @@
 
 .Titulo h1{
     font-size: 80px;
-    color: #1a1a1a;
+    color: var(--Color-oscuro);
     font-family: inter;
     font-weight: 900;
     letter-spacing: -2px;
@@ -42,7 +42,7 @@
     align-items: center;
     font-family: inter;
     font-weight: 500;
-    color: #666;
+    color: var(--Color-gris-medio-claro);
     font-size: 16px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .Botones .btn:nth-child(1){
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #2a2a2a 0%, var(--Color-oscuro) 100%);
     color: white;
     border: none;
     transition: all 0.4s;
@@ -77,7 +77,7 @@
 .Botones .btn:nth-child(2){
     background-color: white;
     color: #2a2a2a;
-    border: 2px solid #2a2a2a;
+    border: 2px solid var(--Color-gris-oscuro);
     transition: all 0.4s;
 }
 
