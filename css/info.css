@@ -24,18 +24,74 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .Titulo-Banner h2{
     font-family: var(--Texto-principal);
     font-size: 50px;
-    width: 30%;
+    width: auto;
     color: var(--Color-oscuro);
     font-weight: 900;
 }
 
 .Titulo-Banner .hr{
-    width: 70%;
+    width: 60%;
+    height: 3px;
+    background: var(--Color-gris-oscuro);
+    margin-left: 30px;
+}
+
+.Contenedor-Articulos{
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.Contenedor-Articulos article{
+    width: 100%;
+}
+
+.Contenedor-Articulos article h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--Color-oscuro);
+    font-family: var(--Texto-principal);
+    font-weight: 700;
+}
+
+.Contenedor-Articulos article h4{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: var(--Color-oscuro);
+    font-family: var(--Texto-principal);
+    font-weight: 600;
+}
+
+.Contenedor-Articulos article p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--Color-gris-medio-claro);
+    margin-bottom: 15px;
+    text-wrap: balance;
+}
+
+.Contenedor-Articulos article ul{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.Contenedor-Articulos article ul li{
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--Color-gris-medio-claro);
+    margin-bottom: 10px;
+    list-style-type: disc;
 }
 
 .Info-contenido{
@@ -78,8 +134,37 @@
 }
 
 @media screen and (max-width: 950px) {
+    .Titulo-Banner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .Titulo-Banner h2{
         font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .Titulo-Banner .hr{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Contenedor-Articulos{
+        width: 95%;
+        padding: 30px;
+    }
+
+    .Contenedor-Articulos article h3{
+        font-size: 26px;
+    }
+
+    .Contenedor-Articulos article h4{
+        font-size: 18px;
+    }
+
+    .Contenedor-Articulos article p,
+    .Contenedor-Articulos article ul li{
+        font-size: 14px;
     }
 
     .Info-contenido{
@@ -93,5 +178,25 @@
 
     .Info-card p{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Titulo-Banner h2{
+        font-size: 28px;
+    }
+
+    .Contenedor-Articulos{
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    .Contenedor-Articulos article h3{
+        font-size: 22px;
+    }
+
+    .Contenedor-Articulos article h4{
+        font-size: 16px;
     }
 }

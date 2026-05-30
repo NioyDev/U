@@ -1,6 +1,7 @@
 let Opciones = {
     "Inicio": "../index.html",
     "Historia": "../html/historia.html",
+    "Ofertas Académicas": "../html/ofertas-academicas.html",
     "Requisitos": "../html/requesitos.html",
     "Matrícula": "../html/matricula.html",
     "Admisión": "../html/admision.html",
